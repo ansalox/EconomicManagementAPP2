@@ -107,7 +107,7 @@ namespace EconomicManagementAPP.Controllers
 
             if (account is null)
             {
-                return RedirectToAction("NotFount", "Home");
+                return RedirectToAction("NotFound", "Home");
             }
 
             return View(account);
